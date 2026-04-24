@@ -7,7 +7,7 @@ const currentYear = 2026;
 export function Footer() {
   return (
     <footer className="relative border-t border-white/8 mt-12">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-14 grid md:grid-cols-3 gap-10">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12 sm:py-14 grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10">
         <div>
           <div className="flex items-center gap-3">
             <div className="h-10 w-10 rounded-xl overflow-hidden ring-1 ring-white/10">
