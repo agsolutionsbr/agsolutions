@@ -1,18 +1,25 @@
 import { FadeIn, SectionHeader } from "./Section";
-import dashboard from "@/assets/result-dashboard.jpg";
-import website from "@/assets/result-website.jpg";
-import landing from "@/assets/result-landing.jpg";
-import system from "@/assets/result-system.jpg";
-import crm from "@/assets/result-crm.jpg";
-import whatsapp from "@/assets/result-whatsapp.jpg";
+import { ArrowUpRight } from "lucide-react";
+import napoli from "@/assets/case-napoli.png";
+import oduh from "@/assets/case-oduh.png";
 
-const gallery = [
-  { img: dashboard, tag: "Dashboard", title: "Painéis de gestão em tempo real" },
-  { img: website, tag: "Sites", title: "Sites institucionais premium" },
-  { img: landing, tag: "Landing", title: "Landing pages de alta conversão" },
-  { img: system, tag: "Sistemas", title: "Sistemas sob medida" },
-  { img: crm, tag: "CRM", title: "CRM e pipeline comercial" },
-  { img: whatsapp, tag: "Automação", title: "WhatsApp automatizado com IA" },
+const projects = [
+  {
+    img: napoli,
+    name: "Napoli Massas e Molhos",
+    segment: "Gastronomia · Massas Artesanais",
+    description:
+      "Site institucional premium desenvolvido para fortalecer presença digital, valorizar marca artesanal e aumentar pedidos online.",
+    url: "https://napolimassasemolhos.vercel.app/",
+  },
+  {
+    img: oduh,
+    name: "Oduh Ruggeri Barbearia",
+    segment: "Barbearia Premium",
+    description:
+      "Landing page moderna criada para posicionamento premium, captação de clientes e fortalecimento da marca local.",
+    url: "https://oduhruggeribarbearia.vercel.app/",
+  },
 ];
 
 const cases = [
