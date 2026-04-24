@@ -33,6 +33,13 @@ export const Route = createRootRoute({
       { name: "description", content: "Sites profissionais, automações inteligentes e sistemas sob medida para empresas que querem vender mais e crescer com estrutura." },
       { name: "author", content: "AG Solutions" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "AG Solutions — Soluções inteligentes. Resultados reais." },
+      { name: "twitter:title", content: "AG Solutions — Soluções inteligentes. Resultados reais." },
+      { property: "og:description", content: "Sites profissionais, automações inteligentes e sistemas sob medida para empresas que querem vender mais e crescer com estrutura." },
+      { name: "twitter:description", content: "Sites profissionais, automações inteligentes e sistemas sob medida para empresas que querem vender mais e crescer com estrutura." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/00b7e3b8-9fe1-40b9-8a6c-dd5f963a40a4/id-preview-474d0287--290b232a-958e-43fc-9458-13e3c61a9fed.lovable.app-1777058708004.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/00b7e3b8-9fe1-40b9-8a6c-dd5f963a40a4/id-preview-474d0287--290b232a-958e-43fc-9458-13e3c61a9fed.lovable.app-1777058708004.png" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       {
