@@ -29,7 +29,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.9, delay: 0.05, ease: [0.22, 1, 0.36, 1] }}
-              className="font-serif font-light text-[2.6rem] sm:text-6xl lg:text-[5.2rem] leading-[0.98] tracking-[-0.035em]"
+              className="font-serif font-light text-[2.25rem] sm:text-6xl lg:text-[5.2rem] leading-[1.02] sm:leading-[0.98] tracking-[-0.03em]"
             >
               <span className="text-gradient">Sua empresa pode</span>
               <br />
