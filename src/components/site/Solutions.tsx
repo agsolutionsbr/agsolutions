@@ -1,5 +1,5 @@
 import { FadeIn, SectionHeader } from "./Section";
-import { ArrowRight, Globe, LayoutDashboard, Bot, Instagram, Check, Clock } from "lucide-react";
+import { ArrowRight, Globe, LayoutDashboard, Bot, Check, Clock } from "lucide-react";
 
 const solutions = [
   {

@@ -1,5 +1,5 @@
 import logo from "@/assets/ag-logo.jpeg";
-import { Instagram, Mail, MessageCircle } from "lucide-react";
+import { Mail, MessageCircle } from "lucide-react";
 
 export function Footer() {
   return (

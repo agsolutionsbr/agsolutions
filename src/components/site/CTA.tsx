@@ -1,5 +1,5 @@
 import { FadeIn, SectionHeader } from "./Section";
-import { ArrowRight, Check, MessageCircle, Mail, Instagram, Clock } from "lucide-react";
+import { ArrowRight, Check, MessageCircle, Mail, Clock } from "lucide-react";
 
 const WHATSAPP = "https://wa.me/5511961836889";
 const EMAIL = "mailto:agsolutionsbr@gmail.com";
