@@ -1,9 +1,13 @@
 import { motion } from "framer-motion";
 import { ArrowRight, ArrowUpRight, Check } from "lucide-react";
+import { ShaderAnimation } from "@/components/ui/shader-animation";
 
 export function Hero() {
   return (
     <section id="inicio" className="relative pt-36 pb-24 sm:pt-44 sm:pb-32 overflow-hidden">
+      <div className="absolute inset-0 opacity-[0.18] pointer-events-none">
+        <ShaderAnimation />
+      </div>
       <div className="absolute inset-0 bg-grid pointer-events-none" />
       <div className="absolute inset-0 bg-hero-glow pointer-events-none" />
 
