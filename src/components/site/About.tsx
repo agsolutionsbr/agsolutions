@@ -16,8 +16,9 @@ export function About() {
           <div className="lg:col-span-7">
             <SectionHeader
               align="left"
-              eyebrow="Nossa história"
-              title={<>Tecnologia aplicada ao <em className="font-serif italic text-gradient">crescimento real</em>.</>}
+              index="05"
+              eyebrow="Sobre a AG"
+              title={<>Tecnologia aplicada ao <span className="italic font-serif text-foreground">crescimento real</span>.</>}
             />
 
             <div className="mt-8 space-y-5 text-muted-foreground leading-relaxed">

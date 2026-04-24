@@ -12,8 +12,9 @@ export function CTA() {
       <div className="absolute inset-0 bg-hero-glow pointer-events-none" />
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
         <SectionHeader
+          index="07"
           eyebrow="Próximo passo"
-          title={<>Fale agora com a <em className="font-serif italic text-gradient">AG Solutions</em> e descubra como sua empresa pode crescer com estrutura digital.</>}
+          title={<>Seu negócio merece <span className="italic font-serif text-foreground">estrutura profissional</span>.</>}
           description="Se você quer parar de improvisar e começar a crescer com tecnologia, a AG Solutions pode construir esse próximo nível com você."
         />
 
