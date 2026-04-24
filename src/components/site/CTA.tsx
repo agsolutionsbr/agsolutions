@@ -55,26 +55,32 @@ export function CTA() {
                 </a>
               </div>
 
-              <div className="mt-8 pt-6 border-t border-white/8 grid sm:grid-cols-3 gap-3">
-                <a href={WHATSAPP} target="_blank" rel="noreferrer" className="glass rounded-xl px-4 py-3 hover:border-primary/40 transition flex items-center gap-3">
-                  <MessageCircle size={18} className="text-success" />
-                  <div>
+              <div className="mt-8 pt-6 border-t border-white/8 grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <a href={WHATSAPP} target="_blank" rel="noreferrer" className="glass rounded-xl px-4 py-3.5 hover:border-primary/40 transition flex items-center gap-3 min-w-0">
+                  <span className="h-9 w-9 shrink-0 rounded-lg bg-success/15 ring-1 ring-success/30 flex items-center justify-center">
+                    <MessageCircle size={16} className="text-success" />
+                  </span>
+                  <div className="min-w-0 flex-1">
                     <div className="text-[10px] uppercase tracking-wider text-muted-foreground">WhatsApp</div>
-                    <div className="text-xs font-semibold">+55 11 96183-6889</div>
+                    <div className="text-xs font-semibold truncate">+55 11 96183-6889</div>
                   </div>
                 </a>
-                <a href={EMAIL} className="glass rounded-xl px-4 py-3 hover:border-primary/40 transition flex items-center gap-3">
-                  <Mail size={18} className="text-neon" />
-                  <div>
+                <a href={EMAIL} className="glass rounded-xl px-4 py-3.5 hover:border-primary/40 transition flex items-center gap-3 min-w-0">
+                  <span className="h-9 w-9 shrink-0 rounded-lg bg-primary/15 ring-1 ring-primary/30 flex items-center justify-center">
+                    <Mail size={16} className="text-neon" />
+                  </span>
+                  <div className="min-w-0 flex-1">
                     <div className="text-[10px] uppercase tracking-wider text-muted-foreground">Email</div>
                     <div className="text-xs font-semibold truncate">agsolutionsbr@gmail.com</div>
                   </div>
                 </a>
-                <a href={IG} target="_blank" rel="noreferrer" className="glass rounded-xl px-4 py-3 hover:border-primary/40 transition flex items-center gap-3">
-                  <Instagram size={18} className="text-neon" />
-                  <div>
+                <a href={IG} target="_blank" rel="noreferrer" className="glass rounded-xl px-4 py-3.5 hover:border-primary/40 transition flex items-center gap-3 min-w-0">
+                  <span className="h-9 w-9 shrink-0 rounded-lg bg-primary/15 ring-1 ring-primary/30 flex items-center justify-center">
+                    <Instagram size={16} className="text-neon" />
+                  </span>
+                  <div className="min-w-0 flex-1">
                     <div className="text-[10px] uppercase tracking-wider text-muted-foreground">Instagram</div>
-                    <div className="text-xs font-semibold">@agsolutionsbr</div>
+                    <div className="text-xs font-semibold truncate">@agsolutionsbr</div>
                   </div>
                 </a>
               </div>
