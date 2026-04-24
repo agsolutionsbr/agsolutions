@@ -207,3 +207,7 @@
     opacity: 0.04; pointer-events: none; mix-blend-mode: overlay;
   }
 }
+
+@utility bg-gradient-conic {
+  background-image: conic-gradient(var(--tw-gradient-stops));
+}

@@ -1,6 +1,8 @@
 import { Instagram } from "@/components/site/icons/Instagram";
 import { FadeIn, SectionHeader } from "./Section";
 import { ArrowRight, Check, MessageCircle, Mail, Clock } from "lucide-react";
+import { LampContainer } from "@/components/ui/lamp";
+import { motion } from "framer-motion";
 
 const WHATSAPP = "https://wa.me/5511961836889";
 const EMAIL = "mailto:agsolutionsbr@gmail.com";
@@ -11,6 +13,17 @@ export function CTA() {
     <section id="contato" className="relative py-24 sm:py-32">
       <div className="absolute inset-0 bg-hero-glow pointer-events-none" />
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
+        <LampContainer className="min-h-[22rem] sm:min-h-[26rem] -mb-32 sm:-mb-40">
+          <motion.h2
+            initial={{ opacity: 0.5, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3, duration: 0.8, ease: "easeInOut" }}
+            className="bg-gradient-to-br from-foreground to-muted-foreground py-2 bg-clip-text text-center font-serif text-4xl sm:text-6xl font-light tracking-tight text-transparent"
+          >
+            Vamos construir <br /> seu próximo nível.
+          </motion.h2>
+        </LampContainer>
+
         <SectionHeader
           index="07"
           eyebrow="Próximo passo"
