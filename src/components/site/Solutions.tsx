@@ -64,9 +64,10 @@ export function Solutions() {
     <section id="solucoes" className="relative py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <SectionHeader
-          eyebrow="O que fazemos"
-          title={<>Soluções que <em className="font-serif italic text-gradient">geram resultado</em>.</>}
-          description="Não vendemos serviço por serviço. Montamos a estrutura digital completa que a sua empresa precisa para competir e crescer."
+          index="02"
+          eyebrow="O que entregamos"
+          title={<>Soluções que <span className="italic font-serif text-foreground">geram resultado</span>.</>}
+          description="Não vendemos serviço solto. Montamos a estrutura digital completa que sua empresa precisa para competir e crescer."
         />
 
         <div className="mt-16 grid md:grid-cols-2 gap-5 sm:gap-6">
