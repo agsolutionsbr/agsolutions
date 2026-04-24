@@ -1,3 +1,4 @@
+import { Instagram } from "@/components/site/icons/Instagram";
 import logo from "@/assets/ag-logo.jpeg";
 import { Mail, MessageCircle } from "lucide-react";
 

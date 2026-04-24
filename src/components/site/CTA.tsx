@@ -1,3 +1,4 @@
+import { Instagram } from "@/components/site/icons/Instagram";
 import { FadeIn, SectionHeader } from "./Section";
 import { ArrowRight, Check, MessageCircle, Mail, Clock } from "lucide-react";
 
