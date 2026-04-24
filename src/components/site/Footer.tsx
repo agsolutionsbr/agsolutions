@@ -2,6 +2,8 @@ import { Instagram } from "@/components/site/icons/Instagram";
 import logo from "@/assets/ag-logo.jpeg";
 import { Mail, MessageCircle } from "lucide-react";
 
+const currentYear = 2026;
+
 export function Footer() {
   return (
     <footer className="relative border-t border-white/8 mt-12">
@@ -45,12 +47,14 @@ export function Footer() {
             </li>
             <li>
               <a href="mailto:agsolutionsbr@gmail.com" className="inline-flex items-center gap-2 hover:text-neon transition">
-                <Mail size={16} className="text-neon" /> agsolutionsbr@gmail.com
+                <Mail size={16} className="text-neon" />
+                <span>agsolutionsbr@gmail.com</span>
               </a>
             </li>
             <li>
               <a href="https://instagram.com/agsolutionsbr" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-neon transition">
-                <Instagram size={16} className="text-neon" /> @agsolutionsbr
+                <Instagram size={16} className="text-neon" />
+                <span>@agsolutionsbr</span>
               </a>
             </li>
             <li className="text-muted-foreground text-xs pt-2">
@@ -61,7 +65,7 @@ export function Footer() {
       </div>
       <div className="border-t border-white/8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
-          <div>© {new Date().getFullYear()} AG Solutions. Todos os direitos reservados.</div>
+          <div>© {currentYear} AG Solutions. Todos os direitos reservados.</div>
           <div>Alfredo Veloso • Guilherme Ruggeri</div>
         </div>
       </div>
