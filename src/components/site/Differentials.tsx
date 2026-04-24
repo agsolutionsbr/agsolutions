@@ -15,8 +15,9 @@ export function Differentials() {
     <section className="relative py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <SectionHeader
+          index="06"
           eyebrow="Por que a AG Solutions"
-          title={<>O que nos <em className="font-serif italic text-gradient">diferencia</em>.</>}
+          title={<>O que nos <span className="italic font-serif text-foreground">diferencia</span>.</>}
         />
 
         <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-5">

@@ -65,8 +65,9 @@ export function Results() {
     <section id="resultados" className="relative py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <SectionHeader
-          eyebrow="Casos reais"
-          title={<>Empresas que <em className="font-serif italic text-gradient">cresceram</em> com a gente.</>}
+          index="04"
+          eyebrow="Casos selecionados"
+          title={<>Empresas que <span className="italic font-serif text-foreground">cresceram</span> com a gente.</>}
           description="Dados reais, projetos reais. Sem inflação de números ou casos inventados."
         />
 
