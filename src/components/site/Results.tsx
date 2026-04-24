@@ -22,50 +22,6 @@ const projects = [
   },
 ];
 
-const cases = [
-  {
-    tag: "CLÍNICA ESTÉTICA",
-    title: "Bella Vita Estética",
-    location: "São Paulo, SP",
-    period: "Resultado em 90 dias",
-    desc: "A clínica dependia de indicações e tinha agenda com buracos frequentes. Sem site, sem automação, sem presença digital estruturada.",
-    metrics: [
-      { v: "+180%", l: "Agendamentos online" },
-      { v: "−70%", l: "Tempo em ligações" },
-      { v: "+4.8★", l: "Avaliação no Google" },
-    ],
-    headline: "+180% em agendamentos",
-    solution: "Site com agendamento + WhatsApp automático + Instagram estratégico",
-  },
-  {
-    tag: "ESCRITÓRIO JURÍDICO",
-    title: "Santos & Almeida Advocacia",
-    location: "Curitiba, PR",
-    period: "Resultado em 60 dias",
-    desc: "Escritório consolidado com zero presença digital. Leads vinham apenas de indicação. Nenhum processo de captação ativo.",
-    metrics: [
-      { v: "+70", l: "Leads qualificados/mês" },
-      { v: "3×", l: "Consultas agendadas" },
-      { v: "R$0", l: "Investimento em ads" },
-    ],
-    headline: "+70 leads/mês qualificados",
-    solution: "Landing page de autoridade + SEO local + funil no Instagram",
-  },
-  {
-    tag: "EMPRESA DE SERVIÇOS",
-    title: "Constrular Reformas",
-    location: "Belo Horizonte, MG",
-    period: "Resultado em 45 dias",
-    desc: "Time sobrecarregado com orçamentos manuais, follow-ups perdidos e clientes sem retorno. Operação caótica e ineficiente.",
-    metrics: [
-      { v: "−60%", l: "Tempo em tarefas manuais" },
-      { v: "+40%", l: "Capacidade de atendimento" },
-      { v: "24h", l: "Resposta automática" },
-    ],
-    headline: "−60% tempo operacional",
-    solution: "CRM + automação de orçamentos + painel de gestão de OS",
-  },
-];
 
 export function Results() {
   return (
