@@ -29,6 +29,13 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
+  if (typeof window !== "undefined") {
+    // Garante que ao carregar a página o usuário comece sempre no topo (Início)
+    if (window.history.scrollRestoration) {
+      window.history.scrollRestoration = "manual";
+    }
+  }
+
   return (
     <div className="relative min-h-screen overflow-x-hidden">
       <Navbar />
