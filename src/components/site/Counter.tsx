@@ -38,6 +38,6 @@ export function Counter({
           {prefix}
           {val.toLocaleString("pt-BR")}
           {suffix}
-        </span>span>
-      );
+    </span>
+  );
 }
